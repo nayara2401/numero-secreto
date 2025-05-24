@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 //let titulo = document .querySelector ('h1');
 //titulo.innerHTML = 'Jogo do número secreto';
 
@@ -140,5 +140,4 @@ function reiniciarJogo () {
 //Os parênteses em uma função são usados para conter os argumentos que a função recebe,
 //  permitindo a passagem de informações para a função 
 // e influenciando seu comportamento e resultados.
->>>>>>> 82b33b4116bc59f192c7bf9c295aa180393789a7
 //Ou seja, os parenteses são usados para definir os parâmetros da função.
