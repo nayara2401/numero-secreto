@@ -1,14 +1,3 @@
-//let titulo = document .querySelector ('h1');
-//titulo.innerHTML = 'Jogo do número secreto';
-
- //O código document.querySelector('h1') seleciona o elemento h1 no HTML, 
- // e a propriedade innerHTML permite que você altere o conteúdo de texto desse elemento. 
- //Ao atribuir o valor 'jogo do número secreto' a innerHTML, 
- // você está atualizando o texto exibido no cabeçalho da página. 
-
-//let paragrafo = document.querySelector ('p');
-//paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
-
 let listaDeNumerosSorteados = [];
 let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio ();
@@ -85,23 +74,3 @@ function reiniciarJogo () {
     exibirMensagemInicial (); 
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
-
-
-// = SE USA PARA ATRIBUIR UM VALOR
-// == SE USA PARA COMPARAR UM VALOR
-// BOOLEANO SIGNIFICA VERDADEIRO OU FALSO
-
-//Os parênteses em uma função são usados para conter os argumentos que a função recebe,
-//  permitindo a passagem de informações para a função 
-// e influenciando seu comportamento e resultados.
-//Ou seja, os parenteses são usados para definir os parâmetros da função.
-// array = lista de valores
-//lenght = tamanho da lista (array)
-// push = adiciona item ao final da lista
-// includes = verifica se o valor já existe na lista
-// parseInt = converte o valor para inteiro
-// Math.random() = gera um número aleatório entre 0 e 1
-// Math.random() * 10 = gera um número aleatório entre 0 e 10
-// Math.random() * 10 + 1 = gera um número aleatório entre 1 e 10
-// parseInt(Math.random() * 10 + 1) = gera um número inteiro aleatório entre 1 e 10
-
